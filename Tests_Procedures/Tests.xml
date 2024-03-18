@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tests>
+    <division name="initialisation">
+        <test name="configuration keyring">
+            Vérifie que l'utilisation du mot de passe utilisateur est géré par keyring
+        </test>
+    </division>
+    <division name="process">
+        <subdivision name="shell">
+            <test name="shell execute command">
+                Vérifie que la méthode ProcessShell permet d'exécuter des commandes shell via subprocess
+            </test>
+            <test name="shell execute command admin">
+                Vérifie que la méthode ProcessShell permet d'exécuter des commandes shell en mode admin via subprocess
+            </test>
+            <test name="shell execute command with expected output">
+                Vérifie que la méthode ProcessShell permet d'exécuter des commandes shell et retourne le résultat attendu
+            </test>
+        </subdivision>
+    </division>
+</tests>
